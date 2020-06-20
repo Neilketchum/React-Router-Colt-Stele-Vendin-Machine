@@ -1,0 +1,27 @@
+.app-nav{
+    display: flex;
+    background-color: #ffadad;
+  }
+.nav-elements{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 2rem;
+   
+  }
+  .ele{
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+  .btn{
+    padding: 2rem;
+    margin-top: 3rem;
+    border:2px solid black;
+    border-radius: 4px;
+    background-color:#8d99ae;
+  }
+  .btn:hover{
+    transform: scale(1.2);
+  }

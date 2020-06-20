@@ -1,0 +1,45 @@
+
+body{
+    /* 
+    background-size: cover; */
+    background-color: #ffc6ff;
+}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+.Machine{
+    /* margin:100px; */
+    margin-left:50rem;
+    margin-top: 4rem;
+    width: 1500px;
+    height:1000px;
+    background-image: url('https://images.pexels.com/photos/4062497/pexels-photo-4062497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap');
+.header{
+    font-family: 'MuseoModerno', cursive;
+    font-size:5rem;
+    text-decoration: underline;
+}
+.app-nav{
+    display: flex;
+    background-color: #ffadad;
+  }
+.nav-elements{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 2rem;
+   
+  }
+  .ele{
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
